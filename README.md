@@ -5,6 +5,7 @@
 ![Toolchain](https://img.shields.io/badge/Toolchain-Keil%20MDK%20%2F%20ARMCC%205-ff8200)
 ![Comments](https://img.shields.io/badge/注释-简体中文-D1242F)
 ![Tutorial](https://img.shields.io/badge/教程-江协科技-6E49C1)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 > 把 STM32F10x 标准外设库与 CMSIS 内核文件中的**全部英文注释汉化为简体中文**，代码逐字节保持不变，对照中文即可读懂每一个外设驱动的实现。
 
@@ -160,11 +161,18 @@
 8. DMA：串口 / ADC 配合 DMA
 9. 其他外设：RTC、IWDG / WWDG、CAN、USB 等按需学习
 
-## 许可与免责声明
+## 许可证
 
-- 本仓库仅对官方库的**注释**进行汉化，源代码版权归 **STMicroelectronics / ARM** 所有，各文件开头的版权与免责声明原样保留。
-- 工程模板与教程来自 **江协科技**（B 站《STM32 入门教程》），版权归原作者所有。
-- 本仓库仅用于个人学习与教学交流，请勿用于商业用途；如内容涉及侵权，请联系删除。
+本仓库采用 **[MIT License](LICENSE)** 开源：可自由使用、复制、修改、合并、发布、分发、再授权及销售，
+唯需在所有副本中保留原版权声明与本许可声明，软件按“现状”提供、不附带任何担保。
+
+需要特别说明：
+
+- 本仓库包含的 STM32F10x 标准外设库与 CMSIS 原始**源代码**，版权归 **STMicroelectronics / ARM** 所有，
+  各文件开头的版权与许可声明原样保留，并遵循其各自的许可条款；MIT 授权覆盖本仓库新增的**汉化注释、
+  术语整理与工程编排**部分。
+- 工程模板与教程来自 **江协科技**（B 站《STM32 入门教程》），相关版权归原作者所有。
+- 如认为本仓库内容涉及侵权，请联系处理。
 
 ## 致谢
 
