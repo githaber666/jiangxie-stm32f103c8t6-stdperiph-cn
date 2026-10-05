@@ -1,0 +1,36 @@
+# Keil MDK / ARM 编译输出
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.elf
+*.bin
+*.hex
+*.sct
+*.htm
+*.lnp
+*.iex
+*.i
+*.lst
+*.map
+*.build_log.htm
+*.scvd
+*.uvguix.*
+JLinkLog.txt
+JLinkSettings.ini
+RTE/
+
+# 编译目录
+Objects/
+Listings/
+DebugConfig/
+Debug/
+Release/
+Output/
+
+# 编辑器 / 系统临时文件
+Thumbs.db
+desktop.ini
+*.swp
+*~
